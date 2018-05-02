@@ -25,7 +25,7 @@ body {
         to right top, 
         rgba(0, 0, 0, 0.97) 10%, 
         rgba(0, 0, 0, 0.92)), 
-        url(jazmin-quaynor-470729.jpg);
+        url("jazmin-quaynor-470729.jpg");
     background-size: cover;
     
     background-position: top; /* cand ecranul e mai mic, poza e decupata. Top ramane la fel sus*/
