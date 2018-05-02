@@ -25,7 +25,7 @@ body {
         to right top, 
         rgba(0, 0, 0, 0.97) 10%, 
         rgba(0, 0, 0, 0.92)), 
-        url(../img/jazmin-quaynor-470729.jpg);
+        url(jazmin-quaynor-470729.jpg);
     background-size: cover;
     
     background-position: top; /* cand ecranul e mai mic, poza e decupata. Top ramane la fel sus*/
@@ -297,7 +297,7 @@ body {
         to right top, 
         rgba(0, 0, 0, 0.89) 10%, 
         rgba(0, 0, 0, 0.92)), 
-        url(../img/manu-camargo-60128.jpg);
+        url(manu-camargo-60128.jpg);
     background-size: cover;
     background-attachment: fixed;  
     clip-path: polygon(0 0, 50% 25vh, 100% 0, 100% 90vh, 50% 100%, 0 90vh);
@@ -396,7 +396,7 @@ body {
     margin: 0 auto;
     width: 90%;
     height: 12%;
-    background-image: url(../img/girl-2366438__340.jpg);
+    background-image: url(girl-2366438__340.jpg);
     background-size: cover;
     background-attachment: fixed;
     margin-bottom: 10%;
@@ -609,20 +609,20 @@ $gutter-horizontal: 6rem;
     
 }
 .card__picture-1 {
-    background-image: url(../img/beauty-1584709__340.jpg);
+    background-image: url(beauty-1584709__340.jpg);
     border-bottom: .1rem solid rgba(121, 17, 121, 0.69);
 }
 
 .card__picture-2 {
     background-image:
-        url(../img/lipstick-2722847__340.jpg);
+        url(lipstick-2722847__340.jpg);
     border-bottom: .1rem solid rgba(1, 175, 148, 0.79);
 
 }
 
 .card__picture-3 {
     background-image: 
-        url(../img/photo-1505944270255-72b8c68c6a70.jpg);
+        url(photo-1505944270255-72b8c68c6a70.jpg);
     border-bottom: .1rem solid rgba(255, 153, 14, 0.85);
 
 }
