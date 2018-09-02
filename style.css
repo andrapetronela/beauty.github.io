@@ -743,17 +743,13 @@ $gutter-horizontal: 6rem;
     color: #d63031;
 }
 
-/*.box-left a:first-child {
-    padding-left: 5em;
-}*/
-
 .box-right a:last-child {
     padding-right: 3em;
 }
 
 .footer-box p {
     color: #fff;
-    font-size: 130%;
+    font-size: 110%;
     font-weight: 300;
     letter-spacing: 1px;
     word-spacing: 2px;
@@ -764,26 +760,5 @@ $gutter-horizontal: 6rem;
 }
 
 
-.icon-small {
-    font-size: 170%;
-    padding-right: 1em;
-    
-}
-
-.facebook {
-    color:  #3b5998;
-}
-
-.twitter {
-    color: #1da1f2;
-}
-
-.instagram {
-    color: #c32aa3;
-}
-
-.google {
-    color: #db4437;
-}
 
 
