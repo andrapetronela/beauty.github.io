@@ -6,7 +6,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
 }
 
 body {
@@ -184,7 +183,7 @@ body {
     letter-spacing: 0.5px;
     font-weight: 300; 
     color: #BDBDBD;
-
+    font-size: 1.2rem;
 }
 
 
@@ -204,7 +203,6 @@ body {
     font-weight: 300;
     letter-spacing: 4px;
 }
-/* Linie pe pagina... in loc de <hr>*/
 .heading-tert::before,
 .gallery-portofolio-container h3:before,
 .blog::before,
@@ -230,13 +228,13 @@ body {
     z-index: 10;
     border-radius: 2px;
     box-shadow: 10px 15px 15px rgba(72, 70, 70, 0.79);
-    transition: all .2s; /*pentru animatie */
-    outline-offset: 1.2rem; /* spatiu intre poza si outline (border)*/
+    transition: all .2s; 
+    outline-offset: 1.2rem; 
     backface-visibility: hidden;
 }
 
 .photo-container-pop-up img:hover {
-     outline: .6rem solid #f50057; /*border cu spatiu!!!!*/
+     outline: .6rem solid #f50057; 
      transform: scale(1.15) translateX(-.5rem);
      box-shadow: 0 2.5rem 4rem rgba(#000, .5);
      z-index: 20;
@@ -302,8 +300,6 @@ body {
     background-size: cover;
     background-attachment: fixed;  
     clip-path: polygon(0 0, 50% 25vh, 100% 0, 100% 90vh, 50% 100%, 0 90vh);
-     
-
     margin-top: -36%;
     position: relative;
     z-index: 100;
@@ -312,7 +308,7 @@ body {
 
 .main__section-container {
     
-    color: #fff;
+    color: rgba(255, 255, 255, 0.78);
 
 }
 .heading-services {
@@ -322,9 +318,7 @@ body {
     font-size: 200%;
     font-weight: 300;
     letter-spacing: 4px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-left: auto;
     top: 255%;
 }
 
@@ -372,6 +366,8 @@ body {
     width: calc((100% - 3 * 60px) / 4);
     margin-top: 18%;
     z-index: 10;
+    display: flex;
+    flex-wrap: wrap;
     }
 
 
@@ -463,13 +459,6 @@ body {
 
 /*************************************** CARDURI ***************************************/
 
-
-/*
-$grid-width: 114rem;
-$gutter-vertical: 8rem; // spatiu intre coloane
-$gutter-horizontal: 6rem;
-*/
-
 .grid-test {
     height: 140vh;
     background-color: #f2f2f2;
@@ -486,11 +475,6 @@ $gutter-horizontal: 6rem;
     font-weight: 300;
     letter-spacing: 4px;
 }
-
-/*
-.grid-container {
-    margin-top: -25%;
-}*/
 
 .row {
     max-width: 1140px;

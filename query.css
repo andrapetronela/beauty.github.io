@@ -10,4 +10,37 @@
     .heading-tert {
         margin-top: 15%;
     }
+    
+    .col-1-of-2 {
+        width: 100%;
+    }
+    .acc-container-text h3 {
+        font-size: 1.5rem;
+    }
+    
+    .photo-container-pop-up {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 5rem;
+    }
+    
+    .photo-container-pop-up img {
+        position: relative;
+        width: auto;
+        height: 20%;
+    }
+    .ph {
+        top: 0;
+        left: 0;
+        margin: .2rem;
+    }
+   
+    .heading-services {
+        margin-top: 10rem;
+    }
+    .col-1-of-4 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8%;
+    }
 }
