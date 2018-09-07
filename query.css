@@ -1,0 +1,13 @@
+@media only screen and (max-width: 1200px) {
+    body {
+        padding: 0;
+    }
+    
+    .about-work-me {
+        margin-top: -25%;
+    }
+    
+    .heading-tert {
+        margin-top: 15%;
+    }
+}
